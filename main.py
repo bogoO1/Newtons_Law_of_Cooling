@@ -49,7 +49,6 @@ def onSubmit(event):
 	ax.grid
 
 	plot = document.querySelector("#plot")
-
 	plot.innerHTML = ""
 
 	display(fig, target = "plot")
